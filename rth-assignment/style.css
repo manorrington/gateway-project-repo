@@ -1,0 +1,469 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #ECF0F1;
+}
+
+header {
+  background-color: #283747;
+  padding: 20px;
+}
+
+h1 {
+  padding: 50px;
+  margin-left: 150px; 
+  font-family: Georgia, serif;
+}
+
+p {
+   font-family: Georgia, serif;
+}
+/* end reset */
+
+/* begin nav bar */
+nav {
+  position: relative;
+  left: 1100px;
+}
+nav li {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  text-align: left;
+}
+
+a:link , a:visited {
+  color:#D0D3D4 ;
+  text-decoration: none;
+} 
+
+a:visited {
+  decoration: none;
+}
+/* end nav */
+
+/* start home header */
+#homecontainer {
+  background-color: #34495E ;
+}
+
+.mainh1 {
+  position: relative;
+  bottom: 650px;
+  left: 200px;
+  padding: 20px;
+  color: white;
+}
+
+.homeimg {
+    opacity: 90%;
+    position: relative;
+    left: 300px;
+}
+
+.singflag {
+  padding: 0px 10px;
+}
+
+.flightsbutton {
+  position: relative;
+  bottom: 650px;
+  left: 400px;
+  padding: 12px 20px;
+  width: 130px;
+  border-radius: 20px;
+  border: 1px white solid;
+  cursor: pointer;
+  background: transparent;
+}
+/* end home header */
+
+/* home page */
+.phome {
+  padding: 15px;
+  margin-left: 50px;
+  width: 60%;
+  line-height: 2em;
+  font-size: 15pt;
+}
+
+#startplanningimg {
+  position: relative;
+  left: 300px;
+  top: 17px;
+}
+
+.familyimg {
+  padding: 10px;
+  position: relative;
+  left: 800px;
+  bottom: 575px;
+}
+
+.firstimeimg {
+  position: relative;
+  bottom: 1007px;
+  left: 800px;
+}
+
+.coupleimg {
+  position: relative;
+  bottom: 1085px;
+  left: 1100px;
+}
+
+.shoppinging {
+ position: relative;
+ bottom: 507px;
+ left: 1100px;
+}
+
+ .ahome {
+/* font-weight: 500; */
+font-family: BourtonLineBold,Helvetica,Arial,sans-serif;       
+text-transform: uppercase;
+color: white;
+position: relative;
+bottom: 100px;
+left: 350px;
+}
+
+.afamily {
+/* font-weight: 400; */
+font-size: 12pt;
+font-family: BourtonLineBold,Helvetica,Arial,sans-serif;       
+text-transform: uppercase;
+color: white;
+position: relative;
+left: 820px;
+bottom: 620px;
+}
+
+.acouple {
+font-size: 12pt;
+font-family: BourtonLineBold,Helvetica,Arial,sans-serif;       
+text-transform: uppercase;
+color: white;
+position: relative;
+left: 1110px;
+bottom: 1120px;
+}
+
+.afirsttime {
+font-size: 12pt;
+font-family: BourtonLineBold,Helvetica,Arial,sans-serif;       
+text-transform: uppercase;
+color: white;
+position: relative;
+left: 810px;
+bottom: 1040px;
+}
+
+.ashopping {
+font-size: 12pt;
+font-family: BourtonLineBold,Helvetica,Arial,sans-serif;       
+text-transform: uppercase;
+color: white;
+position: relative;
+left: 1120px;
+bottom: 540px;
+}
+
+
+/* end home page */
+
+
+/* start to do */
+
+.attr {    /* text above images */
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 75px;
+}
+
+.end {
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 572px;
+}
+
+.shop {
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 1071px;
+  bottom: 270px;
+}
+
+.outdoors {
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  top: 100px;
+}
+
+.anc {
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 572px;
+  top: 89px;
+}
+
+.moresing {
+  background-color: #34495E;
+  color: white;
+  padding: 10px 10px;
+  width: 15.85%;
+  text-align: center;
+  position: relative;
+  left: 1071px;
+  bottom: 190px;
+}
+
+
+
+/* "what do you want to do" images */
+.attractionsimg {                             
+  float: left;
+  position: relative;
+  left: 225px;
+}
+
+.eatndrinkimg {
+  position: relative;
+  left: 400px;
+}
+
+.shoppingimg {
+  float: right;
+  position: relative;
+  bottom: 270px;
+  right: 360px;
+}
+
+.outdoorsimg {
+  float: left; 
+  position: relative;
+  left: 225px;
+  top: 100px;
+}
+
+.artncultureimg {
+  position: relative;
+  left: 400px;
+  top: 81px;
+}
+
+.moresingimg {
+  float: right; 
+  position: relative;
+  right: 360px;
+  bottom: 192px;
+}
+
+
+/* start recommendation images and text */
+#recommend {
+  padding: 10px;
+  margin-top: 300px;  
+  position: relative;
+  left: 500px;
+}
+
+.recommend1 {
+  position: relative;
+  right: 75px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sunset {
+  padding: 10px;
+  position: relative;
+  left: 200px;
+  margin-bottom: 100px;
+}
+
+.psunset {
+  padding: 10px;
+  position: relative;
+  left: 1100px;
+  bottom: 350px;
+  text-align: center;
+  line-height: 2em;
+  width: 30%;
+}
+
+.garden {
+  position: relative;
+  left: 950px;
+}
+
+.pgarden {
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+  text-align: center;
+  line-height: 2em;
+  width: 30%;
+}
+
+.flyer {
+  position: relative;
+  left: 200px;
+}
+
+.pflyer {
+  position: relative;
+  left: 1100px;
+  bottom: 250px;
+  text-align: center;
+  width: 30%;
+  line-height: 2em;
+}
+
+.platform {
+  position: relative;
+  left: 950px;
+}
+
+.pplatform {
+  position: relative;
+  left: 300px; 
+  bottom: 300px;
+  text-align: center;
+  width: 30%;
+  line-height: 2em;
+}
+
+
+
+/* start contact */
+#ccontainer {
+  background-color: #34495E ;
+  padding-bottom: 50px;
+}
+
+.contactimg {
+  position: relative;
+  left: 350px;
+}
+.pcontact {
+  padding: 20px;
+  margin: 23px;
+  border-bottom: 1px black solid;  
+  position: relative;
+  left: 450px;
+  text-align: center;  
+  width: 50%;
+}
+
+.ccontainer {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: Georgia, serif;
+}
+
+.label {
+  position: relative;
+  right: 15px;
+}
+
+.inputname { 
+  width: 35%;
+  padding: 20px 40px; 
+  position: relative;
+  right: 10px;
+}
+
+.inputnumber {
+  width: 35%;
+  padding: 20px 40px; 
+  position: relative;
+  left: 7px;
+}
+
+.inputemail {
+  width: 35%;
+  padding: 20px 40px; 
+  position: relative;
+  left: 10px;
+}
+
+.inputtext {
+  width: 35%;
+  padding: 20px 40px; 
+  position: relative;
+  left: 37px;
+}
+
+.submit {
+  margin-bottom: 100px;
+  padding: 12px 20px;
+  width: 100px;
+  border-radius: 5px;
+  background: #E6E6FA;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #D8BFD8;	
+}
+/* end contact */
+
+
+
+
+
+
+/* start footer */
+footer {
+  background-color: #34495E ;
+  color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 100;
+  padding: 5px;
+}
+
+.footerlogo {
+  position: relative;
+  right: 20px;
+  top: 20px;
+}
+
+
+
+
